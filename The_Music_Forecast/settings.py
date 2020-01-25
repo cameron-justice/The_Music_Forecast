@@ -25,7 +25,7 @@ SECRET_KEY = 'ro5yt-frp+!k^zx6jst(d+ww4l&h6(0-0=s3f)7-1619wm4aip'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ancient-sea-34849.herokuapp.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'forecasting',
 ]
 
 MIDDLEWARE = [
