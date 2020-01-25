@@ -7,3 +7,8 @@ class Playlist(models.Model):
     title = models.CharField(max_length=50)
     cover = models.ImageField()
     creator = models.CharField(max_length=50)
+
+class WeatherValue(models.Model):
+    energy = models.FloatField()
+    valence = models.FloatField
+    bpm = models.IntegerField()
