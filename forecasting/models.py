@@ -4,5 +4,5 @@ from django.db import models
 
 class Playlist(models.Model):
     pID = models.TextField()
-    title = models.CharField(50)
+    title = models.CharField(max_length=50)
     cover = models.ImageField()
