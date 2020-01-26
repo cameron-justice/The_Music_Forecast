@@ -1,0 +1,30 @@
+body {
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url(rain.gif);
+    */
+    background-image: linear-gradient(to top left, rgba(10,255,100,0), rgba(10,255,100,0.5), rgba(10,255,100,1)), url(radar.gif);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#spotify{
+    height: 50;
+    width: 220;
+    position: fixed;
+    bottom: 0px;
+    left: 43%;
+    
+}
