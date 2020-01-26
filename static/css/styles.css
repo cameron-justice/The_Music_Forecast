@@ -28,8 +28,9 @@ body {
     */
     
     
-    background-size: auto;
+    background-size: cover;
     background-position: center;
+    height: 100%;
 }
 
 
