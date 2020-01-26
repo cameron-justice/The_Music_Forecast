@@ -1,7 +1,8 @@
+{% load static %}
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="{% static "css/styles.css" %}" rel="stylesheet">
 </head>
 <body>
     <h1>The Music Forecast</h1>
@@ -21,7 +22,7 @@
             <option value="calm">Calm</option>
             <option value="scared">Scared</option>
             <option value="indifferent">Indifferent</option>
-            <option value="melancoly">Melancoly</option>
+            <option value="melancholy">Melancholy</option>
         </select><br>
         <button class="button">Submit Mood</button><br>
         <text class="chatt">ChattleSnake</text>
