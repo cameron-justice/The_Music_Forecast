@@ -11,12 +11,15 @@ client_credentials_manager = SpotifyClientCredentials(client_id=os.environ.get('
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
+def index(request):
+    forecast(request)
+    return render(request, 'forecasting/index.html')
+
 # Create your views here.
 def forecast(request):
     weather = getWeather()
     pl = getPlaylist(weather)
-    return render(request, 'forecasting/index.html', {'weather': weather, 'playlist': pl})
-
+    return None
 # Functionality
 
 def updateValues(request):
