@@ -8,3 +8,4 @@ dj-database-url==0.5.0
 pillow==7.0.0
 numpy==1.18.1
 geopy==1.20.0
+whitenoise==5.0.1
