@@ -7,8 +7,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import numpy as np
 
-#client_credentials_manager = SpotifyClientCredentials(client_id=os.environ.get('CLIENT_ID'), client_secret=os.environ.get('CLIENT_SECRET'))
-#sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+client_credentials_manager = SpotifyClientCredentials(client_id=os.environ.get('CLIENT_ID'), client_secret=os.environ.get('CLIENT_SECRET'))
+sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
 # Create your views here.
