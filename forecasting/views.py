@@ -5,7 +5,7 @@ import requests
 import os
 import numpy as np
 from django.http import HttpResponse
-import SpotifyUtility as SpotUtils
+from . import SpotifyUtility as SpotUtils
 
 def index(request):
     return render(request, 'forecasting/index.html')
