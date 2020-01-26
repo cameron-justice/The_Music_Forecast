@@ -1,17 +1,11 @@
 from django.shortcuts import render
-import spotipy
 from .models import Playlist
 from .models import WeatherValue
 import requests
-from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import numpy as np
 from django.http import HttpResponse
 import ../SpotifyUtility
-
-client_credentials_manager = SpotifyClientCredentials(client_id=os.environ.get('CLIENT_ID'), client_secret=os.environ.get('CLIENT_SECRET'))
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-
 
 def index(request):
     forecast(request)
