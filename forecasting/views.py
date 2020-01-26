@@ -30,8 +30,8 @@ def getPlaylist(weather_vals):
 
     # Append the values and IDs in the same order
     for p in PList:
-        pValues.append(calcPlaylistValues(PList.pID)
-        pIDs.append(PList.pID)
+        pValues.append(calcPlaylistValues(p.pID))
+        pIDs.append(p.pID)
     plIndex = getClosestPlaylist(pValues, weather_vals)
 
     return PList.get(pID=pIDs[plIndex])
