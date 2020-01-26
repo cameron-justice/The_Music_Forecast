@@ -26,5 +26,51 @@ p {
     position: fixed;
     bottom: 0px;
     left: 43%;
-    
+}
+
+.button {
+  background-color: #4CAF50;
+  border: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border: 2px solid #555555;
+}
+
+.textfield{
+    border-color: black;
+    font-size: 30;
+}
+
+.loctext{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.moodtext{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mood{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.chatt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.tm{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7px;
 }
