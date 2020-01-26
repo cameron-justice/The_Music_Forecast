@@ -4,7 +4,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import numpy as np
 
-class SpotifyUtility():
+class SpotifyUtility:
     def __init__(self):
         self.client_credentials_manager = SpotifyClientCredentials(client_id=os.environ.get('CLIENT_ID'), client_secret=os.environ.get('CLIENT_SECRET'))
         self.sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
