@@ -42,8 +42,8 @@ def getClosestPlaylist(p_values, w_value):
     index = 0
     for line in p_values:
         dist = (
-            abs(w_value[0] - line[0])
-            abs(w_value[1] - line[1])
+            abs(w_value[0] - line[0]),
+            abs(w_value[1] - line[1]),
             abs(w_value[2] - line[2])
         )
 
