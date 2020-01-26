@@ -58,7 +58,7 @@ def getClosestPlaylist(p_values, w_value):
             nearDist = sDist
             closest = index
 
-        if(index+1 < len(dist)):
+        if(index+1 < len(p_values)):
             index += 1
 
     return index
