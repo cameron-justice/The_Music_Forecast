@@ -13,12 +13,8 @@ import numpy as np
 
 # Create your views here.
 def forecast(request):
-    print(os.environ.get('CLIENT_ID'), os.environ.get('CLIENT_SECRET'))
-
-#    weather = getWeather()
-#    pl = getPlaylist(weather)
-    weather = ""
-    pl = ""
+    weather = getWeather()
+    pl = getPlaylist(weather)
     return render(request, 'forecasting/index.html', {'weather': weather, 'playlist': pl})
 
 # Functionality
