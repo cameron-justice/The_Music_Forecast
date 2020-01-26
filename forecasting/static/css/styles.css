@@ -1,7 +1,7 @@
 body {
     /* Home Page */
-    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url(rain.gif);
-    */
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url(rain.gif);
+    
     
     /* Clear Page */
     /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url(clear.gif);
@@ -24,8 +24,8 @@ body {
     */
     
     /* Night */
-    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url(night.gif);
-    
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url(night.gif);
+    */
     
     
     background-size: cover;
