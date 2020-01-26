@@ -5,7 +5,7 @@ import requests
 import os
 import numpy as np
 from django.http import HttpResponse
-import ../SpotifyUtility
+import SpotifyUtility
 
 def index(request):
     forecast(request)
