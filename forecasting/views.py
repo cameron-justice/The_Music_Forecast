@@ -5,15 +5,14 @@ import requests
 import os
 import numpy as np
 from django.http import HttpResponse
-import SpotifyUtility
+import SpotifyUtility as SpotUtils
 
 def index(request):
-    forecast(request)
     return render(request, 'forecasting/index.html')
 
 # Create your views here.
 def forecast(request):
-    sp = SpotifyUtility()
+    sp = SpotUtils.SpotifyUtility()
     weather = getWeather()
     pl = sp.getPlaylist(weather)
     return render(request, 'forecasting/index.html', {'weather': weather, 'playlist': pl})
