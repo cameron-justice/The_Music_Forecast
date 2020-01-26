@@ -9,6 +9,7 @@ class Playlist(models.Model):
     creator = models.CharField(max_length=50)
 
 class WeatherValue(models.Model):
+    name = models.CharField(max_length=50, default='unnamed')
     energy = models.FloatField()
     valence = models.FloatField
     bpm = models.IntegerField()
