@@ -1,0 +1,96 @@
+body {
+    /* Home Page */
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/rain.02e38ba515b5.gif");
+    
+    
+    /* Clear Page */
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/clear.ff8068336b4d.gif");
+    */
+    
+    /* Rain Page */
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/rain2.b6d6fc19c88f.gif");
+    */
+    
+    /* T-Storm Page */
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/tstorm.35d4b60569c5.gif");
+    */
+    
+    /* Snow Page */
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/snow.d733099a447e.gif");
+    */
+    
+    /* Overcast Page */
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/over.fe6f9bc13a04.gif");
+    */
+    
+    /* Night */
+    /*background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)), url("../images/night.3d4165db095e.gif");
+    */
+    
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border: 2px solid #555555;
+}
+
+.textfield{
+    border-color: white;
+    font-size: 30;
+}
+
+.loctext{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.moodtext{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mood{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.chatt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.tm{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7px;
+    color: white;
+}
