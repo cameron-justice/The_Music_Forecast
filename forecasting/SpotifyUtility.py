@@ -1,6 +1,4 @@
 import spotipy
-from models import Playlist
-from models import WeatherValue
 import requests
 from spotipy.oauth2 import SpotifyClientCredentials
 import os
