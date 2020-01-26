@@ -60,6 +60,8 @@ def getClosestPlaylist(p_values, w_value):
 
         index += 1
 
+    return index
+
 def calcPlaylistValues(pID):
     playlist = sp.playlist(pID, fields = None, market = None)
     tracks = playlist['tracks']['items']
