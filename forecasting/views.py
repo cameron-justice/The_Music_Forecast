@@ -19,7 +19,7 @@ def index(request):
 def forecast(request):
     weather = getWeather()
     pl = getPlaylist(weather)
-    return None
+    return HttpRequest('')
 # Functionality
 
 def updateValues(request):
