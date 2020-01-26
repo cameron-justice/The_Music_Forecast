@@ -23,7 +23,7 @@ def updateValues(request):
     PList = Playlist.objects.all()
 
 def getWeather():
-    return ""
+    return (0,0,0)
 
 def getPlaylist(weather_vals):
     PList = Playlist.objects.all()
